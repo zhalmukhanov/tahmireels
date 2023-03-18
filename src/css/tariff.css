@@ -25,6 +25,11 @@
     padding: 10px 25px;
 }
 
+.vip_title {
+    top: 35px;
+
+}
+
 .tariff_card_title h4{
     font-weight: 500;
     font-size: 24px;
@@ -63,12 +68,11 @@
 .card_2 .tariff_card_container {
     background: linear-gradient(158.14deg, #FFCEE5 10%,#33C1BD 100%);
 }
-
 .card_3 .tariff_card_title {
     background: #33C1BD;
 }
 .card_3 .tariff_card_title p{
-    color: #FFCEE5;
+    color: #ff3c3c;
 }
 .card_3 .tariff_card_container {
     background: linear-gradient(160deg, #33C1BD 0%, #FFCEE5 30%,#33C1BD 80%, #FFCEE5 100%);

@@ -13,7 +13,7 @@
     padding: 10px 15px;
     padding-left: 30px;
     background: linear-gradient(270deg, rgba(51, 193, 189, 0.23) 0%, 
-                                        rgba(255, 206, 229, 0.1587) 79.92%, 
+                                        rgba(255, 206, 229, 0.1587) 50.92%,
                                         rgba(255, 206, 229, 0) 100%);
     border-radius: 0px 30px 30px 0px;
     font-weight: 600;
@@ -104,9 +104,10 @@
     position: relative;
     top: -35px;
     background: linear-gradient(177.86deg, rgba(255, 255, 255, 0) 1%, 
-                                           rgba(51, 193, 189, 0.15) 30%, 
-                                           rgba(255, 206, 229, 0.4) 70%,
-                                           #FFCEE5 95%);
+                                           rgba(51, 193, 189, 0.15) 20%,
+                                           rgba(255, 206, 229, 0.4) 40%,
+                                           #FFCEE5 60%,
+    rgba(255, 255, 255, 0) 90%);
 }
 .me_info {
     margin-bottom: 40px;
