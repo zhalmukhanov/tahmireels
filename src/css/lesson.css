@@ -1,0 +1,92 @@
+
+.lesson h2{
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.lesson_body {
+    margin-top: 30px;
+}
+.lesson_item {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.lesson_item.even {
+    flex-direction: row-reverse;
+}
+.lesson_icon_container {
+    padding: 21px;
+    border-radius: 50%;
+    background: rgba(51, 193, 189, 0.24);
+    border: 2px dashed #379C99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.lesson_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+}
+.lesson_line {
+    margin: 0 45px;
+    height: 50px;
+    background: url("../img/bgLes.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+
+
+/* animations */
+
+.lesson h2 {
+    transform: translateY(200%);
+    opacity: 0;
+    transition: all 0.5s ease 0s;  
+}
+.lesson h2._active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.lesson_item.odd {
+    transform: translateX(-100%) rotate(-10deg);
+    opacity: 0;
+    transition: all 1s ease 0s;  
+}
+.lesson_item.even {
+    transform: translateX(100%) rotate(10deg);
+    opacity: 0;
+    transition: all 1s ease 0s;  
+}
+.lesson_item._active {
+    transform: translateX(0) rotate(0);
+    opacity: 1;
+}
+
+.lesson_line.odd {
+    transform: scaleY(0);
+    transition: all 2s ease 0s;  
+
+}
+.lesson_line.odd._active  {
+    transform: scaleY(1);
+}
+
+.lesson_line.even {
+    transform: scaleY(0) matrix(-1, 0, 0, 1, 0, 0);
+    transition: all 2s ease 0s;  
+
+}
+.lesson_line.even._active  {
+    transform: scaleY(1) matrix(-1, 0, 0, 1, 0, 0);
+}

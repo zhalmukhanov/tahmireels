@@ -1,0 +1,93 @@
+.banner {
+
+}
+.banner_main {
+    height: 60vh;
+    background-image: url("../img/IMG_7349.jpg");
+    background-size: 120%;
+    background-position: 60% 70%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.banner_quote {
+    font-family: 'Poiret One';
+    margin-top: 12vh;
+    padding: 0 15px;
+    font-size: 18px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #FFFBFE;
+}
+.banner_social {
+    width: 100%;
+    margin-top: 30vh;
+    display: inline-flex;
+    gap: 30px;
+    justify-content: center;
+}
+.banner_footer {
+    height: 50px;
+    background-image: url("../img/bgWh1.png");
+    background-size: 100%;
+
+}
+
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner_title {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #1D1F25;
+}
+.banner_title span{
+    font-family: 'Lovers Quarrel';
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 62px;
+    color: #6ED8D5;
+}
+
+.banner_info {
+    padding-top: 25px;
+}
+
+.banner_info li {
+    padding-bottom:  10px;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: linear-gradient(92.36deg, #FFCEE5 0%, #70FFE5 100%);
+	transition: all 0.5s ease 0s;
+
+    
+}
+.btn:hover {
+    background: #70FFE5;
+    transform: scale(1.1);
+    transition: all 0.5s ease 0s;
+    font-weight: 700;
+}
+.btn p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #1D1F25;
+}
+.banner_btn {
+    margin-top: 20px;
+}
