@@ -292,8 +292,12 @@
     font-weight: 500;
 }
 
-.tariff_card_info_price ымп{
-    width: 50px;
+.tariff_card_info_price svg{
+    width: 70px;
+}
+
+.kaspi_price {
+    font-size: 15px;
 }
 
 .old_price {
@@ -304,15 +308,19 @@
 }
 
 .tariff_btn_container {
+    margin-top: 30px;
     width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    margin-bottom: 25px;
+    gap: 15px;
+
 }
 .card_btn {
-    margin-top: 20px;
     box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.15);
     border-radius: 39px;
-    margin-bottom: 25px;
 }
 
 

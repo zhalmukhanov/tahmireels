@@ -120,14 +120,14 @@
                 </span>
             </h1>
 
-            <div class="banner_info">
-                <p>Где вы получите сразу 3 профессий, как :</p>
-                <ul>
-                    <li>Content-мейкер</li>
-                    <li>REELS-мейкер</li>
-                    <li>Мобилограф</li>
-                </ul>
-            </div>
+<!--            <div class="banner_info">-->
+<!--                <p>Где вы получите сразу 3 профессий, как :</p>-->
+<!--                <ul>-->
+<!--                    <li>Content-мейкер</li>-->
+<!--                    <li>REELS-мейкер</li>-->
+<!--                    <li>Мобилограф</li>-->
+<!--                </ul>-->
+<!--            </div>-->
 
             <a href="#tariff" class="btn banner_btn">
                 <p>Записатьcя</p>
@@ -174,7 +174,7 @@
             <div class="whatgiv_container _anim-items">
                 <div class="whatgiv_item">
                     <p>
-                        Изучищь все способы поиска клиентов.
+                        Изучишь все способы поиска клиентов.
                     </p>
                     <img src="src/img/whatgiv_4.png" alt="icon">
                 </div>
@@ -491,8 +491,11 @@
                         </div>
 
                         <div class="tariff_btn_container">
-                            <div class="btn card_btn" onclick="sendWhats('base')">
+                            <div class="btn card_btn" onclick="sendWhats('базовый', false)">
                                 <p>Записатьcя</p>
+                            </div>
+                            <div class="btn card_btn" onclick="sendWhats('premium', true)">
+                                <p>Записатьcя через рассрочку <br>0-0-12</p>
                             </div>
                         </div>
                     </div>
@@ -548,8 +551,12 @@
 
                         </div>
                         <div class="tariff_btn_container">
-                            <div class="btn card_btn" onclick="sendWhats('premium')">
+                            <div class="btn card_btn" onclick="sendWhats('premium', false)">
                                 <p>Записатьcя</p>
+                            </div>
+
+                            <div class="btn card_btn" onclick="sendWhats('premium', true)">
+                                <p>Записатьcя через рассрочку <br>0-0-12</p>
                             </div>
                         </div>
                     </div>
@@ -610,10 +617,15 @@
                                     <p>300.000 тг</p>
                                 </div>
                             </div>
+                            <p class="kaspi_price">* Есть Каспий рассрочка 0-0-12</p>
                         </div>
                         <div class="tariff_btn_container">
-                            <div class="btn card_btn" onclick="sendWhats('vip')">
+                            <div class="btn card_btn" onclick="sendWhats('vip', false)">
                                 <p>Записатьcя</p>
+                            </div>
+
+                            <div class="btn card_btn" onclick="sendWhats('vip', true)">
+                                <p>Записатьcя через рассрочку <br>0-0-12</p>
                             </div>
                         </div>
                     </div>
