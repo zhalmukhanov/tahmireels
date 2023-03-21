@@ -195,3 +195,40 @@ function sendWhats(tariff, kaspi) {
 
     window.location=`https://wa.me/${number}?text=${encodeURI(msg)}`
 }
+
+const deadline = new Date();
+deadline.setMilliseconds(4 * 55 * 60 * 1000);
+var countDownDate = deadline.getTime();
+
+function getDedline() {
+
+}
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Output the result in an element with id="demo"
+    const text = hours + "ч "
+        + minutes + "м " + seconds + "с ";
+    document.getElementById("demo1").innerHTML = text;
+    document.getElementById("demo2").innerHTML = text;
+    document.getElementById("demo3").innerHTML = text;
+
+
+    // If the count down is over, write some text
+    if (distance < 9900000) {
+        setInterval()
+    }
+}, 1000);

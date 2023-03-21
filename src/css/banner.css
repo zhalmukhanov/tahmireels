@@ -13,10 +13,11 @@
 }
 .banner_quote {
     font-family: 'Poiret One';
+    font-weight: bold;
     margin-top: 12vh;
     padding: 0 15px;
-    font-size: 18px;
-    line-height: 16px;
+    font-size: 20px;
+    line-height: 25px;
     text-align: center;
     letter-spacing: 0.05em;
 
