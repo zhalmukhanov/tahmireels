@@ -113,10 +113,15 @@ var swiper = new Swiper(".me-swiper", {
   });
 
   // review slider
+var review_swiper = new Swiper(".keys-swiper", {
+    autoHeight: true,
+    spaceBetween: 20,
+});
+
 var review_swiper = new Swiper(".review-swiper", {
-  effect: "cards",
-  // loop: true,
-  grabCursor: true,
+    effect: "cards",
+    // loop: true,
+    grabCursor: true,
 });
 
 // Projects slider

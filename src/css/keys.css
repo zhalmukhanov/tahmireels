@@ -1,11 +1,11 @@
-.review {
+.keys {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.review h2{
+.keys h2{
     font-weight: 600;
     font-size: 24px;
     line-height: 28px;
@@ -14,20 +14,20 @@
     color: #000000;
 }
 
-.swiper_container{
+.keys_swiper_container{
     margin-top: 20px;
     width: 100%;
     overflow: hidden;
 }
-.review-swiper {
+.keys-swiper {
     margin: 0 auto;
-    padding-top: 60px;
-    width: 70%;
+    padding-top: 70px;
+    width: 80%;
 }
-.review .swiper-slide-shadow {
+.keys .swiper-slide-shadow {
     border-radius: 15px;
 }
-.review .swiper-slide {
+.keys .swiper-slide {
     background: linear-gradient(136.96deg, rgba(51, 193, 189, 0.3) 0%, rgba(255, 206, 229, 0.3) 100%), #FFFFFF;
     border-radius: 15px;
     overflow: visible;
@@ -36,10 +36,10 @@
     flex-direction: column;
 
 }
-.review .img_container {
+.keys .img_container {
     transform: translate(0%, -50%);
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     padding: 4px;
     border-radius: 50%;
 
@@ -55,89 +55,73 @@
     border-radius: 50%;
 }
 
-.review_text {
+.keys_text {
     padding: 0 15px 15px 15px;
     position: relative;
-    top: -30px;
-}
-
-.review_text {
-    max-height: 200px;
-    overflow: hidden;
-    transition: all 0.5s ease 0s;
-}
-
-.review_text_all {
-    max-height: 800px;
-    transition: all 0.5s ease 0s;
+    top: -60px;
 }
 
 
-.all_text {
-    color: #F698C5;
-    text-decoration: underline;
-    position: relative;
-
-    top: -15px;
-}
-
-.review_name {
+.keys_name {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 23px;
+    line-height: 30px;
     text-align: center;
     color: #000000;
 }
-.review_title {
+.keys_title {
     font-weight: 300;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 18px;
+    line-height: 15px;
     text-align: center;
 
     color: #F698C5;
 }
-.review_desc {
-    margin-top: 10px;
-    font-size: 12px;
-    line-height: 14px;
-    text-align: center;
-
+.keys_desc {
+    margin-top: 20px;
     color: #787878;
 }
 
-.review_btn {
-    margin-top: 50px;
+.keys_desc_section{
+
+}
+.keys_desc_title{
+    margin-top: 20px;
+    color: #e16da2;
+    font-size: 20px;
+    font-weight: bold;
+}
+.keys_desc_text{
+    font-size: 18px;
+}
+.keys_desc_text ul{
+    padding-left: 30px;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
+.keys_desc_text li{
+    margin-top: 5px;
+}
 
 /* Animations */
-.review h2 {
+.keys h2 {
     transform: translateY(200%);
     opacity: 0;
     transition: all 1s ease 0s;  
 }
-.review h2._active {
+.keys h2._active {
     transform: translateY(0%);
     opacity: 1;
 }
 
-.swiper_container {
+.keys_swiper_container {
     transform: translateX(100%);
     opacity: 0;
     transition: all 1s ease 0s;  
 }
-.swiper_container._active {
+.keys_swiper_container._active {
     transform: translateY(0%);
-    opacity: 1;
-}
-
-
-.review_btn {
-    transform: translateY(100%) scale(0.5);
-    opacity: 0;
-    transition: all 1s ease 0s;  
-}
-.review_btn._active {
-    transform: translateY(0%) scale(1);
     opacity: 1;
 }
