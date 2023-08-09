@@ -204,7 +204,7 @@ class SlideStories {
 
 
 function sendWhats(tariff, kaspi) {
-    const number = 77085922429
+    const number = 77761756690
 
     let msg = `Здравствуйте, я хочу записаться на ${tariff} тариф ${ kaspi ? 'через каспи рассрочку.' : '.' }`
 
