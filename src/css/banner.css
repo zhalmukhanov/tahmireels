@@ -3,9 +3,10 @@
 }
 .banner_main {
     height: 60vh;
-    background-image: url("../img/IMG_7349.jpg");
+    background-image: url("../img/banner.jpg");
     background-size: 120%;
-    background-position: 60% 70%;
+    background-repeat: no-repeat;
+    background-position: 45% 30%;
 
     display: flex;
     flex-direction: column;
