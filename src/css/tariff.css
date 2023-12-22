@@ -98,13 +98,13 @@
 }
 
 .card_2 .tariff_card_title {
-    background: #FFCEE5;
+    background: #ffb9dd;
 }
 .card_2 .tariff_card_title p{
     color: #33C1BD;
 }
 .card_2 .tariff_card_container {
-    background: linear-gradient(158.14deg, #FFCEE5 10%,#33C1BD 100%);
+    background: linear-gradient(158.14deg, #ffb9dd 10%,#33C1BD 100%);
 }
 .card_3 .tariff_card_title {
     background: #33C1BD;
@@ -464,4 +464,9 @@
 .flip._active {
     transform: translateX(0);
     opacity: 1;
+}
+
+
+.tariff_card_body_bold {
+    font-weight: 700;
 }
