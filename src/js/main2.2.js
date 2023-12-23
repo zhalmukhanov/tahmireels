@@ -147,8 +147,13 @@ class SlideStories {
 
       this.items.forEach((item) => {
         item.classList.remove("active");
+          console.log(item)
+          item.pause();
       });
+
       this.items[index].classList.add("active");
+      this.items[index].currentTime = 0;
+      this.items[index].play();
 
       this.thumbItems.forEach((item) => {
         item.classList.remove("active");
